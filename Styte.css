@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    box-shadow: inset;
+    max-width: 1110px;
+    margin: 0% auto;
+}
+
+header {
+    height: 1161px;
+    /* background-color: aqua; */
+    background: url('../img/designer_1.svg') no-repeat;
+    background-position: right bottom 10px;
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 255px;
+    /* border: 1px solid red;    */
+    justify-content: space-between;
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+
+.logo img{
+   height: 50px;
+
+}
+
+.nav-btn{
+    text-align: center;
+    width: 160px;
+    background: black;
+    height: 26px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-btn a{
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.header-info{
+    margin-top: 100px;
+    width: 540px;
+    /* border: 1px solid red; */
+}
+
+.header-title h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-content p{
+    margin-top: 10px;
+    color: #505F98;
+    font-size: 18px;
+}
