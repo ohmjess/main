@@ -61,11 +61,11 @@ nav ul li a{
     display: inline-block;
 }
 
-.header-info{
+.header-info{ 
     margin-top: 100px;
     width: 540px;
     /* border: 1px solid red; */
-}
+}    
 
 .header-title h1{
     font-size: 30px;
